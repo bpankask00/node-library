@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
+    "express": "^5.2.1",
     "undici-types": "^8.3.0"
   },
   "scripts": {
-    "start": "tsx src/main.ts"
+    "start": "tsx src/index.ts"
   },
   "author": "",
   "license": "ISC",
