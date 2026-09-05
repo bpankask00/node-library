@@ -1,0 +1,19 @@
+{
+  "name": "node-library",
+  "description": "Simple Node JS backend providing online library experiance.",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "undici-types": "^8.3.0"
+  },
+  "scripts": {
+    "start": "tsx src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
