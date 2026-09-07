@@ -6,7 +6,7 @@ const router = express.Router();
 // define the home page route
 router.get('/', async (req: Request, res: Response) => {
   const books = await getAllBooks();
-
+  
   res.send(books);
 });
 
